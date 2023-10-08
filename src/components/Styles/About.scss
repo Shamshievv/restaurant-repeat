@@ -1,0 +1,124 @@
+#about{
+  .about{
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0 0 0;
+    &--block{
+      align-items: center;
+      display: grid;
+      grid-template-columns:1fr 1fr ;
+      grid-gap:1rem ;
+      &__group{
+        //img{
+        //  width: 40%;
+        //}
+        h1{
+          font-weight: 600;
+          width:70%;
+          color: #FFFFFF;
+          padding: 18px 0 66px 0;
+          font-family: 'Silk Serif';
+          font-style: normal;
+          font-size: 41px;
+          line-height: 37px;
+
+        }
+      }
+      p{
+        font-weight: 300;
+        font-family: 'Spartan',sans-serif;
+        font-size:16px;
+        width: 100%;
+        color: #FFFFFF;
+        line-height: 24px;
+        opacity: 80%;
+        //padding-bottom:150px;
+      }
+    }
+    &--images{
+      align-items: center;
+      display: grid;
+      grid-template-columns:1fr 1fr  ;
+      grid-gap:1rem ;
+      img{
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px){
+  #about{
+    .about{
+      &--block{
+        &--images{
+        }
+        margin: 0;
+        h1{
+          font-size: 30px;
+          width: 70%;
+        }
+        p{
+          font-size: 14px;
+          width: 80%;
+        }
+      }
+
+    }
+  }
+}
+@media  (max-width:678px) {
+  #about{
+    .about{
+      &--block{
+        margin: 0 auto;
+display: flex;
+        align-items:start;
+        flex-direction: column;
+        h1{
+          font-size: 25px;
+          padding:  0 ;
+          margin-bottom: 0;
+          font-family: 'Spartan';
+
+        }
+        p{
+          font-size: 12px;
+          padding: 0 0 10px 0;
+          width: 100%;
+        }
+      }
+
+      &--images{
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns:1fr  ;
+        align-items: center;
+
+
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+
+}
+@media (max-width: 450px){
+#about{
+  .about{
+    &--block{
+      //grid-template-columns: none;
+      //align-items: center;
+      p{
+        width: 100%;      }
+      h1{
+        font-size:17px;
+      }
+    }
+  }
+}
+}

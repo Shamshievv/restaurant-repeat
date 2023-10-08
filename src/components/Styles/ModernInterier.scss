@@ -1,0 +1,160 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+#modern {
+  padding-top: 70px;
+  position: relative;
+
+  .line {
+    position: absolute;
+    height: 490px;
+    width: 2px;
+    background: #E5E5E5;
+    left: 4%;
+    top: 160px;
+  }
+
+  .modern {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-right: -5.2%;
+
+
+
+    &--text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 32px;
+
+      &__block {
+        display: flex;
+        flex-direction: column;
+
+        &--img {
+
+          padding: 2px 0;
+        }
+
+      }
+
+      &__title {
+        margin: 0 30px;
+        font-family: 'Shalimar', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 49px;
+        color: #FFFFFF;
+      }
+    }
+
+    &--img {
+
+    }
+
+    &--image {
+      margin: 0 25px;
+
+      &__fon {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+
+        img {
+
+          margin: 0 6px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width: 1440px) {
+  #modern .modern {
+    margin-left: 49px;
+  }
+}
+
+@media (max-width:1200px ) {
+  #modern .modern {
+    margin-left: 5px;
+  }
+
+}
+
+@media (max-width:1024px ) {
+  #modern .line {
+    height: 483px;
+  }
+  #modern .modern--image__fon {
+    margin: 10px -4px;
+  }
+}
+
+@media (max-width:992px ) {
+
+  #modern .line {
+    height: 478px;
+  }
+  .modern--img-img1 {
+    width: 321px;
+    height: 479px;
+  }
+  .modern--image2 {
+    width: 491px;
+  }
+
+  #modern .modern--image__fon {
+    margin: 10px -9px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  #modern {
+    padding-top: 110px;
+  }
+  #modern .line {
+    top: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  #modern .modern--text__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  #modern .modern--text {
+    padding-bottom: 13px;
+  }
+  #modern .line {
+    top: 179px;
+  }
+}
+
+
+@media (max-width: 400px) {
+
+
+}
+
+@media (max-width: 376px) {
+
+}
+
+@media (max-width: 350px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

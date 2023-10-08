@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+@import "components/Styles/Header.scss";
+@import "components/Styles/Hero.scss";
+@import "components/Styles/About.scss";
+@import "components/Styles/BestSellers.scss";
+@import "components/Styles/MainMenu.scss";
+@import "components/Styles/ModernInterier.scss";
+@import "components/Styles/Visit.scss";
+@import "components/Styles/Footer.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "League Spartan", sans-serif;
+    background: #1B2026;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #1B2026;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(16, 13, 13, 0.47);;
+    border-radius: 20px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}

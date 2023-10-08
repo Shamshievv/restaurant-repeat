@@ -1,0 +1,112 @@
+#best{
+  .best{
+    display: flex;
+    padding: 234px 2% 80px 5% ;
+    &--block{
+      //width: 500px;
+      margin: 0 auto;
+      h3{
+        font-family: 'Shalimar';
+        font-weight: 400;
+        font-size: 40px;
+        color: #FFFFFF;
+      }
+      h1{
+        font-family: 'Silk Serif';
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 61px;
+        color: #FFFFFF;
+        padding: 10px 0 10px 0;
+      }
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 100%;
+        opacity: 80%;
+      }
+      }
+    }
+  }
+
+  .slick-slider{
+    width: 500px;
+  }
+
+  .slick-slide{
+    margin: 0 9px;
+  }
+
+  .slick-track{
+    width: 2000px !important;
+  }
+
+  .slick-prev{
+    display: none !important;
+  }
+
+
+@media (max-width: 1200px){
+  #best{
+    .best{
+      padding: 80px 0 0 0;
+
+    }
+  }
+}
+@media (max-width: 992px){
+  #best{
+    .best{
+      display: flex;
+      flex-direction: column;
+      padding: 80px 0 0 0;
+      &--block{
+        h1{
+          font-size: 25px;
+          width: 50%;
+        }
+        p{
+          font-size: 21px;
+          width: 70%;
+        }
+
+      }
+    }
+  }
+}
+@media (575px) {
+  #best{
+    .best{
+      &--block{
+        h1{
+          font-size: 31px;
+          //width: 50%;
+          color: red;
+        }
+        p{
+          font-size: 12px;
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+@media  (max-width: 450px) {
+  #best{
+    .best{
+      &--block{
+        h1{
+          font-size: 28px;
+          width: 75%;
+        }
+        p{
+          font-size: 21px;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+
+}
